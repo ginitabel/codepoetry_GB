@@ -38,6 +38,9 @@
 	 list in 1/5               
 	 //ON
      histogram price
+	 hist mpg 
+	 hist rep78
+	 univar price mpg rep78
      graph export graph.png,  width(400) replace
 	 
 			/***
