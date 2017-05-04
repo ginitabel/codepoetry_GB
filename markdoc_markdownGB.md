@@ -41,7 +41,11 @@
 	 hist mpg 
 	 hist rep78
 	 univar price mpg rep78
+	 reg price mpg
+	 sum price mpg rep78
+	 
      graph export graph.png,  width(400) replace
+	 scatter price mpg
 	 
 			/***
 			You use two stars to include only output, and three stars to include 
