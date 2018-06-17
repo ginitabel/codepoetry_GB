@@ -96,8 +96,8 @@
              
 			 Let's try and add math at the bottom. $y_i=\alpha+\beta_1*X_i$
 			 ***/
-
-     qui log close
+     
+      qui log close
 
     *markdoc example, replace export(html) install mathjax                        
      markdoc example, replace export(docx)
